@@ -1,28 +1,53 @@
-# Resume Screening & Ranking System (Task 3)
+# 🧠 Resume Screening & Ranking System (Task 3)
 
-## Project Overview
-This project builds a Machine Learning-based Resume Screening System that classifies resumes into job roles and ranks candidates based on relevance to a job description.
+## 📌 Overview
+This project builds an AI-based resume screening system that automatically classifies resumes into job roles and ranks candidates based on relevance to a job description.
 
-## Features
-- Resume text preprocessing and cleaning
-- TF-IDF feature extraction
-- Logistic Regression classification model
-- Automatic job role prediction
-- Candidate ranking using confidence scores
+It simulates real-world Applicant Tracking Systems (ATS) used in HR-tech companies.
 
-## Tools Used
+---
+
+## 🎯 Objective
+- Classify resumes into job categories
+- Extract meaningful features from resume text
+- Rank candidates based on job relevance
+- Automate resume screening process
+
+---
+
+## 🛠️ Tools Used
 - Python
 - Pandas
 - Scikit-learn
-- NLP (TF-IDF)
+- NLP (TF-IDF Vectorization)
 - Logistic Regression
 
-## Output
-- Resume classification into job categories
-- Ranked candidate list based on ML score
+---
 
-## Use Case
-This system simulates real-world ATS (Applicant Tracking Systems) used in HR tech companies.
+## ⚙️ Workflow
+1. Load resume dataset
+2. Clean and preprocess text
+3. Convert text into numerical features (TF-IDF)
+4. Train classification model
+5. Predict job roles
+6. Rank resumes using confidence scores
 
-## Author
+---
+
+## 📊 Output
+- Resume classification system
+- Candidate ranking based on ML score
+- Job role prediction system
+
+---
+
+## 🧠 Key Learning
+- Natural Language Processing (NLP)
+- Text classification models
+- Resume parsing logic
+- Real-world HR automation systems
+
+---
+
+## 👨‍💻 Author
 Machine Learning Intern – Future Interns Program
